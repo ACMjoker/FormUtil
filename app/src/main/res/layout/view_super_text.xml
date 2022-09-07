@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_supertext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/dp_40">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/dp_20"-->
+<!--        android:text="身份证号"-->
+<!--        android:textColor="#99000000"-->
+<!--        android:textSize="@dimen/sp_14"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/ed_info"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/dp_15"-->
+<!--        android:layout_marginEnd="@dimen/dp_40"-->
+<!--        android:background="@null"-->
+<!--        android:textColor="#D9000000"-->
+<!--        android:textColorHint="@color/ed_hint_color"-->
+<!--        android:textSize="@dimen/sp_14"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/tv_title"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageRight"-->
+<!--        android:layout_width="@dimen/dp_14"-->
+<!--        android:layout_height="@dimen/dp_14"-->
+<!--        android:layout_marginEnd="@dimen/dp_16"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@mipmap/ic_right_right"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view_line"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/dp_1"-->
+<!--        android:layout_marginStart="@dimen/dp_17"-->
+<!--        android:background="#d8d8d8"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

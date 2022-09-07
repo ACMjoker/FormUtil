@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义输入控件的-->
+    <declare-styleable name="SuperTextView">
+        <!--标题名称-->
+        <attr name="sp_title" format="string" />
+        <!--标题颜色-->
+        <attr name="sp_titleColor" format="color"/>
+        <!--标题字体大小-->
+        <attr name="sp_titleSize" format="dimension"/>
+        <!--标题字体-->
+        <attr name="sp_titleStyle">
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="normal" value="3"/>
+        </attr>
+        <!--输入框内提示内容-->
+        <attr name="sp_hint" format="string" />
+        <!--内容信息-->
+        <attr name="sp_info" format="string" />
+        <!--内容信息颜色-->
+        <attr name="sp_infoColor" format="color"/>
+        <!--内容字体大小-->
+        <attr name="sp_infoSize" format="dimension"/>
+        <!--标题字体-->
+        <attr name="sp_infoStyle">
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="normal" value="3"/>
+        </attr>
+        <!--当前控件是否可输入 默认是可输入的,true为可输入-->
+        <attr name="sp_canEdit" format="boolean" />
+        <!--可输入的最大字数-->
+        <attr name="sp_maxLength" format="integer" />
+        <!--可输入的最大行数-->
+        <attr name="sp_maxLines" format="integer" />
+        <!--输入的类型-->
+        <attr name="sp_inputType" >
+            <enum name="number" value="1"/>
+            <enum name="numberDecimal" value="2"/>
+            <enum name="numberSigned" value="3"/>
+        </attr>
+        <!--是否显示底部横线, 默认显示,true为显示-->
+        <attr name="sp_showLine" format="boolean" />
+        <!--底部横线颜色-->
+        <attr name="sp_lineColor" format="color"/>
+        <!--限制输入的字符-->
+        <attr name="sp_digits" format="string" />
+        <!--标题最小宽度-->
+        <attr name="sp_titleWidth" format="dimension" />
+        <!--控件最小高度-->
+        <attr name="sp_minHeight" format="dimension" />
+        <!--右侧边距 隐藏右侧图片时生效-->
+        <attr name="sp_paddingEnd" format="dimension"/>
+        <!--左侧边距-->
+        <attr name="sp_paddingStart" format="dimension"/>
+        <!--标题开始外边距-->
+        <attr name="sp_titleMarginStart" format="dimension"/>
+        <!--必填提示是否显示,默认不显示, true为显示,false为不显示-->
+        <attr name="sp_required" format="boolean" />
+        <!--控件的值居左还是居右-->
+        <attr name="sp_gravity">
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <!--右侧箭头是否显示,默认不显示，true为显示-->
+        <attr name="sp_imageRight" format="boolean"/>
+    </declare-styleable>
+</resources>
